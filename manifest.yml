@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 2
+  domain: mybluemix.net
+  name: BJTUlib
+  host: BJTUlib
+  disk_quota: 1024M
+  services:
+  - Compose for MongoDB-it
+  buildpack: python_buildpack
